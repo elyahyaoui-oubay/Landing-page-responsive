@@ -7,7 +7,7 @@ header nav ul  {
 }
 header nav ul li{
     flex : 0 0 100px;
-    background-color: indigo;
+    background-color: rgb(107, 134, 255);
     color : white;
     margin: 0px 4px;
     padding: 3px;
@@ -15,10 +15,10 @@ header nav ul li{
 
 }
 main h1{
-    color: indigo;
+    color: rgb(42, 106, 158);
 }
 aside {
-    background-color: pink;
+    background-color: rgb(63, 177, 82);
 }
 footer{
     background-color: black;
