@@ -1,0 +1,92 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.space{
+  margin-left: 20px;
+  width: 100px;
+  border-radius: 10px;
+  
+}
+
+.space , button  :hover{
+  cursor: pointer;
+  color: blue;
+  color: black;
+}
+
+.button {
+  display: flex;
+  justify-content: end;
+  height: 30px;
+  
+}
+
+div{
+  margin-top: 35px;
+  padding-left: 250px;
+}
+
+section{
+  padding: 50px;
+  
+}
+
+.section-pp {
+  margin-bottom: 5px;
+  border: 1px solid blue;
+  width: fit-content;
+  padding: 12px;
+  float: right;
+  margin-right: 100px;
+}
+.section-p{
+  margin-bottom: 5px;
+  border:1px solid blue;
+  width: fit-content;
+  padding: 12px;
+  margin-left: 100px;
+}
+
+.vpn{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.vpn div {
+  width: 33%;
+}
+.world-vpn{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
