@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-.container{
-  width: 90%;
-  margin: 0 auto;
-}
-
 nav {
   width: 100%;
 }
@@ -39,7 +34,6 @@ a{
   display: flex;
   justify-content: end;
   height: 30px;
-  
 }
 
 div{
@@ -49,7 +43,6 @@ div{
 
 section{
   padding: 50px;
-  
 }
 
 .section-pp {
@@ -60,23 +53,14 @@ section{
   float: right;
   margin-right: 100px;
 }
+
 .section-p{
   margin-bottom: 5px;
   border:1px solid blue;
   width: fit-content;
-  padding: 12px;
-  margin-left: 100px;
+  
 }
 
-.vpn{
-  display: flex;
-  justify-content: center;
- 
-}
-
-.vpn div {
-  width: 33%;
-}
 .world-vpn{
   display: flex;
   justify-content: center;
@@ -94,6 +78,21 @@ section{
   color: blue;
   margin-bottom: 4%;
 }
+
+.internet .fastest .policy .para{
+  font-size: 20px;
+  margin-bottom: 4%;
+}
+
+.space-1{
+  padding-right: 10%;
+}
+
+.h-fastest{
+  color: rgb(46, 103, 177);
+  margin-bottom: 10%;
+}
+
 
 
 
