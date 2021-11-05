@@ -32,7 +32,6 @@ a{
 
 .space , button  :hover{
   cursor: pointer;
-  color: blue;
   color: black;
 }
 
@@ -81,6 +80,19 @@ section{
 .world-vpn{
   display: flex;
   justify-content: center;
+}
+
+.h-p{
+  font-size: 50px;
+}
+
+.world{
+  color: blue;
+}
+
+.world-p{
+  color: blue;
+  margin-bottom: 4%;
 }
 
 
