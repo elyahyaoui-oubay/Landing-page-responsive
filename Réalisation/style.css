@@ -111,6 +111,13 @@ section{
   font-size: 20px;
 }
 
+.plan{
+  display: flex;
+  justify-content: center;
+}
+
+
+
 
 
 
