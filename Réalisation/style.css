@@ -86,13 +86,17 @@ section{
 
 .row{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .space-1 , .space-2 , .space-3{
   padding-right: 15%;
 }
 
+.space-1 , .space-2{
+  border-right: solid;
+  padding-left: 50px;
+}
 .h-fastest{
   color: rgb(46, 103, 177);
 }
@@ -103,7 +107,7 @@ section{
 }
 
 .para{
-  text-align: center;
+  text-align: left;
   font-size: 20px;
 }
 
