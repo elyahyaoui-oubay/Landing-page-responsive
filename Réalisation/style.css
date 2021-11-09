@@ -4,117 +4,93 @@
   box-sizing: border-box;
 }
 
-nav {
-  width: 100%;
-}
-ul {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-}
 
-a{
-  text-decoration: none;
-  color: black;
+  /* Header/logo Title */
+  header {
+    
+    width: 100%;
+    padding: 25px 10px;
+    
 }
+  .nav-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
 
-.space{
-  margin-left: 20px;
-  width: 100px;
-  border-radius: 10px;
+  .space ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+  }
+
+  .space {
+    margin-top: 40px;
+  }
   
+  a{
+    color: black;
+    text-decoration: none;
+  }
+
+  .space-btn{
+    margin-top: 40px;
+    width: 100px;
+  }
+
+  .space-btn{
+    padding: 9px 25px;
+    cursor: pointer;
+    border: solid 1px black;
+    border-radius: 20px;
+  }
+
+  .h-p{
+    font-size: 50px;
+    margin-bottom: 4%;
+  }
+
+  .h-p span{
+    color: blue;
+  }
+
+  .world-p{
+    font-size: 20px;
+    margin-bottom: 6%;
+  }
+
+  .world-vpn {
+    text-align: right;
+    margin-top: 10%;
+  }
+
+  .world-vpn span {
+    color: blue;
+  }
+
+.div-center{
+  text-align: center;
+  margin-top: 5%;
 }
 
-.space , button  :hover{
-  cursor: pointer;
-  color: black;
-}
-
-.button {
-  display: flex;
-  justify-content: end;
-  height: 30px;
-}
-
-div{
-  margin-top: 35px;
-  padding-left: 250px;
-}
-
-section{
-  padding: 50px;
-}
-
-.section-pp {
-  margin-bottom: 5px;
-  border: 1px solid blue;
-  width: fit-content;
-  padding: 12px;
-  float: right;
-  margin-right: 100px;
-}
-
-.section-p{
-  margin-bottom: 5px;
-  border:1px solid blue;
-  width: fit-content;
-  
-}
-
-.world-vpn{
-  display: flex;
-  justify-content: center;
-}
-
-.h-p{
-  font-size: 50px;
-}
-
-.world{
-  color: blue;
-}
-
-.world-p{
-  color: blue;
+.fastest , .internet , .policy{
   margin-bottom: 4%;
 }
 
-.internet .fastest .policy .para{
-  font-size: 20px;
-  margin-bottom: 10%;
+
+
+.h-fastest {
+  color: rgb(13, 111, 156);
 }
 
-.row{
-  display: flex;
-  justify-content: center;
-}
 
-.space-1 , .space-2 , .space-3{
-  padding-right: 15%;
-}
 
-.space-1 , .space-2{
-  border-right: solid;
-  padding-left: 50px;
-}
-.h-fastest{
-  color: rgb(46, 103, 177);
-}
 
-.internet .fastest .policy ,h3{
-  text-align: center;
-  margin-bottom: 5%;
-}
+  
+ 
 
-.para{
-  text-align: left;
-  font-size: 20px;
-}
 
-.plan{
-  display: flex;
-  justify-content: center;
-}
+
 
 
 
