@@ -60,8 +60,9 @@
   }
 
   .world-vpn {
-    text-align: right;
-    margin-top: 10%;
+    text-align: center;
+    width: 100%;
+    margin-top: 6%;
   }
 
   .world-vpn span {
