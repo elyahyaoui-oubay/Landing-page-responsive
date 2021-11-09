@@ -2,16 +2,14 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-  /* Header/logo Title */
   header {
-    
     width: 100%;
     padding: 25px 10px;
-    
-}
+  }
+
   .nav-container{
     display: flex;
     justify-content: space-between;
@@ -41,7 +39,9 @@
   .space-btn{
     padding: 9px 25px;
     cursor: pointer;
-    border: solid 1px black;
+    border: solid 1px blue;
+    color: blue;
+    background-color: white;
     border-radius: 20px;
   }
 
@@ -78,15 +78,55 @@
   margin-bottom: 4%;
 }
 
-
-
 .h-fastest {
   color: rgb(13, 111, 156);
 }
 
+.your-plan span{
+  color: blue;
+}
 
+.featur-plan{
+  text-align: center;
+}
+  
+.plan{
+  text-align: center;
+  width: 100%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  padding-left: 90px;
+}
 
+article ul li{
+  list-style: none;
+  margin-top: 3%;
+}
 
+.free{
+  border-style: ridge;
+  border-radius: 15px; 
+}
+
+.standard{
+  border-style: ridge;
+  border-radius: 15px;
+}
+
+.premium{
+  border-style: ridge;
+  border-radius: 15px;
+}
+
+.select{
+  padding: 5px 25px;
+    cursor: pointer;
+    border: solid 1px blue;
+    color: blue;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 4%;
+}
   
  
 
