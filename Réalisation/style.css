@@ -82,6 +82,11 @@
   color: rgb(13, 111, 156);
 }
 
+.para{
+  font-size: 20px;
+  margin: 15px;
+}
+
 .your-plan span{
   color: blue;
 }
@@ -105,17 +110,35 @@ article ul li{
 
 .free{
   border-style: ridge;
-  border-radius: 15px; 
+  border-radius: 15px;
+  width: 250px;
+  height: 350px;
+  padding-top: 55px;
+  padding-bottom: 15px;
+  margin: auto;
+  margin-bottom: 30px; 
 }
 
 .standard{
   border-style: ridge;
   border-radius: 15px;
+  width: 250px;
+  height: 350px;
+  padding-top: 55px;
+  padding-bottom: 15px;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 .premium{
   border-style: ridge;
   border-radius: 15px;
+  width: 250px;
+  height: 350px;
+  padding-top: 55px;
+  padding-bottom: 15px;
+  margin: auto;
+  margin-bottom: 30px;
 }
 
 .select{
