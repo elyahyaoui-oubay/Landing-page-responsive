@@ -150,6 +150,19 @@ article ul li{
     border-radius: 20px;
     margin-top: 4%;
 }
+
+.subscribe{
+  margin-top: 15%;
+  padding-left: 150px;
+
+}
+
+form input{
+  width: 100%;
+  border-radius: 5px;
+  border: solid 1px;
+  padding: 6px;
+}
   
  
 
