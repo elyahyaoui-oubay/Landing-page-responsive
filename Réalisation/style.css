@@ -9,22 +9,6 @@
     width: 100%;
     padding: 25px 10px;
   }
-
-  .nav-container{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-
-  .space ul li {
-    list-style: none;
-    display: inline;
-    margin-left: 40px;
-  }
-
-  .space {
-    margin-top: 40px;
-  }
   
   a{
     color: black;
@@ -87,8 +71,8 @@
   margin: 15px;
 }
 
-.your-plan span{
-  color: blue;
+.p-plan{
+  color: grey;
 }
 
 .featur-plan{
@@ -100,7 +84,7 @@
   width: 100%;
   margin-top: 6%;
   margin-bottom: 6%;
-  padding-left: 90px;
+  
 }
 
 article ul li{
@@ -116,7 +100,8 @@ article ul li{
   padding-top: 55px;
   padding-bottom: 15px;
   margin: auto;
-  margin-bottom: 30px; 
+  margin-bottom: 30px;
+  background-color: gainsboro; 
 }
 
 .standard{
@@ -128,6 +113,7 @@ article ul li{
   padding-bottom: 15px;
   margin: auto;
   margin-bottom: 30px;
+  background-color: gainsboro;
 }
 
 .premium{
@@ -139,6 +125,7 @@ article ul li{
   padding-bottom: 15px;
   margin: auto;
   margin-bottom: 30px;
+  background-color: gainsboro;
 }
 
 .select{
@@ -146,23 +133,53 @@ article ul li{
     cursor: pointer;
     border: solid 1px blue;
     color: blue;
-    background-color: white;
+    background-color: gainsboro;
     border-radius: 20px;
     margin-top: 4%;
 }
 
+.select :hover{
+  background-color: white;
+}
+
 .subscribe{
-  margin-top: 15%;
-  padding-left: 150px;
-
+  margin-top: 10%;
+  padding-left: 100px;
 }
 
-form input{
+.subscribe{
+  text-align: center;
+}
+
+.subscribe form .email{
+  width: 350px;
+  height: 30px;
+  border: solid 1px black;
+  border-radius: 3px;
+}
+
+.subscribe form .subscribe-now{
+  height: 30px;
+  margin: 30px;
+  border-radius: 3px;
+  border-style: none;
+  cursor: pointer;
+  background-color: rgb(23, 145, 202);
+  color: white;
+  text-align: center;
+}
+
+.subscribe form .subscribe-now :hover{
+  background-color: blue;
+}
+
+.copyright{
+  background-color: black;
+  color: beige;
   width: 100%;
-  border-radius: 5px;
-  border: solid 1px;
-  padding: 6px;
+  height: 30px;
 }
+
   
  
 
